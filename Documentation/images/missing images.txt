@@ -1,0 +1,78 @@
+Save these 43 missing images in Documentation/images/
+
+Filename                              What to show
+------------------------------------  ----------------------------------------------
+agent-profile-inspector.png           Agent Profile: Thinking, Perception, Personality.
+ai-asset-inspector.png                AI/enemy role and behaviour or inventory references.
+ai-role-inspector.png                 Enemy Classification, Starting Equipment,
+                                      Combat & Morale Tuning, and Save feedback.
+ai-supporting-assets-inspector.png    Memory Template, AI Inventory, or Social
+                                      Performance with its inspector fields.
+animation-clip-editor.png             Source animation, clip range markers, properties,
+                                      and playback controls.
+asset-reference-picker.png            Reference picker with a matching J3 asset selected;
+                                      show a project-relative path.
+attack-charge-inspector.png           Enabled, animation, dash, hold time, movement
+                                      multiplier, power, sound, and effect.
+attack-effects-inspector.png          Use, Hit, Blocked, and Parried feedback; trails.
+attack-set-inspector.png              Melee mode, Input Slot, move references, and
+                                      Knockdown Health Threshold.
+attack-timeline-inspector.png         Wind-up, active strike, and recovery phases.
+behaviour-hierarchy.png               Profile → behaviour → state → action hierarchy,
+                                      including actions and transitions.
+character-inspector.png               Character model, movement, combat, damage, and
+                                      agent references, dimensions, and preview.
+character-test-and-animation-concept.png
+                                      Character setup beside an animation preview.
+combat-controller-inspector.png       Default Bare Fists Weapon and saved status.
+combat-setup-overview.png             Character combat setup, weapon, attack set,
+                                      and striker preview.
+damage-controller-inspector.png       Reference fields, Auto Generate Runtime
+                                      Hurtboxes, and receiving shapes in preview.
+effect-preview-editor.png             Effect preview, properties, and material/texture.
+enemy-wave-inspector.png              Wave delays, attacker count, combat radius,
+                                      attack distance, cooldown, and spawn row.
+firearm-attack-inspector.png          Trigger Mode, RPM, cartridges, raycast range and
+                                      spread, damage, animations, and shot time.
+first-melee-character.png             Created files, character combat/damage references,
+                                      fist striker, and torso hurtbox preview.
+game-level-inspector.png              Scene and Default Player, player position,
+                                      ordered waves, and Preview Scene.
+grapple-finisher-inspector.png        Future eligibility, animation, alignment, and
+                                      outcome fields. Not capturable in current editor.
+hurtbox-inspector.png                 Torso/head hurtbox rows, bones, sizes, and preview.
+input-mapping-inspector.png           Native event and binding, analog Scale,
+                                      and Event Class.
+input-scheme-inspector.png            Input actions and keyboard/controller bindings.
+level-wave-inspector.png              Level with ordered wave/encounter references.
+locomotion-inspector.png              Locomotion slots, assigned clips, preview state.
+locomotion-state-inspector.png        Standing/Crouching tabs, Basic Movement,
+                                      Targeting, Shared Jump.
+material-inspector.png                Surface, Base Color, Metallic, Roughness,
+                                      texture inputs, and model preview.
+melee-attack-inspector.png            .j3melee animations, Strike fields, strikers,
+                                      Sequencer, timeline, Save Attack.
+melee-attack-timing.png               Timeline at contact with Anticipation End,
+                                      Strike End, and “Striker ACTIVE.”
+model-asset-inspector.png             .j3model Skeleton Mapping, geometry/material
+                                      table, material controls, and preview.
+model-skeleton-inspector.png          Model hierarchy or skeleton mapping controls
+                                      with resulting character preview.
+movement-controller-inspector.png     Inputs, Locomotion, rotation/target controls,
+                                      and Save feedback.
+movement-profile-inspector.png        Movement speeds and options, ideally with preview.
+particle-effect-inspector.png         Emitter material, texture, count/rate, life,
+                                      size, velocity, gravity, color, and preview.
+project-browser-inspector.png         Project tree, selected asset, inspector,
+                                      validation/status feedback.
+reaction-inspector.png                General values, Mid/Front Reaction row,
+                                      Knockdown Recovery row.
+striker-hurtbox-preview.png           Colored, labeled active striker overlapping
+                                      target hurtbox. Used by three pages.
+striker-inspector.png                 Location, Parent Bone, Shape, dimensions,
+                                      collision filters, and preview.
+striker-shapes.png                    Same model with labeled Box, Sphere, Capsule.
+vehicle-inspector.png                 .j3car category, traffic role, model reference,
+                                      wheel/seat/light groups.
+weapon-inspector.png                  Category, Attack Set roles, strikers, model,
+                                      socket, transform, and Save.

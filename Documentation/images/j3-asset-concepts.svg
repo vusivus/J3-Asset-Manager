@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="460" viewBox="0 0 1120 460" role="img" aria-labelledby="title desc">
+  <title id="title">J3 Asset Manager asset flow</title>
+  <desc id="desc">Source resources are configured as focused J3 assets, linked into game systems, and consumed by runtime integrations.</desc>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101d32"/><stop offset="1" stop-color="#09111f"/></linearGradient><linearGradient id="card" x2="1" y2="1"><stop stop-color="#1c3857"/><stop offset="1" stop-color="#16263e"/></linearGradient><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 12 6 0 12z" fill="#65d7e8"/></marker></defs>
+  <rect width="1120" height="460" rx="28" fill="url(#bg)"/>
+  <text x="56" y="58" fill="#f0f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700">From source files to reusable game systems</text>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="55" y="132" width="220" height="214" rx="18" fill="url(#card)" stroke="#41658a"/><text x="80" y="174" fill="#88e4ef" font-size="16" font-weight="700">1 · SOURCE</text><text x="80" y="214" fill="#f0f6ff" font-size="20" font-weight="600">Models · rigs</text><text x="80" y="247" fill="#f0f6ff" font-size="20" font-weight="600">Animations · textures</text><text x="80" y="294" fill="#aebfd3" font-size="15">Existing project resources</text>
+    <rect x="335" y="102" width="310" height="274" rx="18" fill="url(#card)" stroke="#41658a"/><text x="365" y="145" fill="#88e4ef" font-size="16" font-weight="700">2 · AUTHOR</text><text x="365" y="185" fill="#f0f6ff" font-size="20" font-weight="600">Focused J3 assets</text><text x="365" y="225" fill="#c8d7e9" font-size="16">Character · Animation · Movement</text><text x="365" y="256" fill="#c8d7e9" font-size="16">Combat · AI · Level · Effects</text><text x="365" y="311" fill="#aebfd3" font-size="15">Inspect · reference · validate</text>
+    <rect x="705" y="132" width="175" height="214" rx="18" fill="url(#card)" stroke="#41658a"/><text x="730" y="174" fill="#88e4ef" font-size="16" font-weight="700">3 · COMPOSE</text><text x="730" y="218" fill="#f0f6ff" font-size="20" font-weight="600">Characters</text><text x="730" y="251" fill="#f0f6ff" font-size="20" font-weight="600">Levels</text><text x="730" y="294" fill="#aebfd3" font-size="15">Connect reusable data</text>
+    <rect x="940" y="132" width="135" height="214" rx="18" fill="url(#card)" stroke="#41658a"/><text x="962" y="174" fill="#88e4ef" font-size="16" font-weight="700">4 · RUN</text><text x="962" y="220" fill="#f0f6ff" font-size="20" font-weight="600">JME</text><text x="962" y="253" fill="#f0f6ff" font-size="20" font-weight="600">Runtime</text><text x="962" y="294" fill="#aebfd3" font-size="15">Integration</text>
+  </g>
+  <path d="M285 240h38M655 240h38M890 240h40" stroke="#65d7e8" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="56" y="420" fill="#91a6bf" font-family="Segoe UI,Arial,sans-serif" font-size="14">Conceptual overview · supported links and runtime behavior depend on asset type and project version</text>
+</svg>

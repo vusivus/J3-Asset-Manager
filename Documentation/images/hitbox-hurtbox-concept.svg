@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img" aria-labelledby="title desc">
+  <title id="title">Hitbox and hurtbox contact</title><desc id="desc">A striker attached to an attacker's right fist overlaps a receiving hurtbox on a target's torso during the active strike window.</desc>
+  <rect width="1100" height="520" rx="24" fill="#0c1627"/><text x="48" y="59" fill="#f2f7ff" font-family="Arial,sans-serif" font-size="28" font-weight="700">When does a punch count as a hit?</text>
+  <g font-family="Arial,sans-serif" fill="#dbeaff" text-anchor="middle"><text x="287" y="111" font-size="23">Attacker</text><text x="806" y="111" font-size="23">Target</text></g>
+  <g stroke="#6f92b5" stroke-width="22" stroke-linecap="round" fill="none"><path d="M286 190v142m0-65-58 68m58-68 55 68m-55-116-55 58m55-58 110 50"/><path d="M806 190v142m0-65-58 68m58-68 55 68m-55-116-55 67m55-67 55 67"/></g>
+  <g fill="#a9c9e5"><circle cx="286" cy="157" r="36"/><circle cx="806" cy="157" r="36"/></g>
+  <rect x="725" y="212" width="162" height="138" rx="27" fill="#1fae68" fill-opacity=".23" stroke="#51dd9d" stroke-width="5" stroke-dasharray="11 8"/>
+  <circle cx="457" cy="270" r="61" fill="#e67142" fill-opacity=".34" stroke="#ffa06d" stroke-width="5" stroke-dasharray="11 8"/><circle cx="725" cy="270" r="61" fill="#e67142" fill-opacity=".22" stroke="#ffa06d" stroke-width="5" stroke-dasharray="11 8"/>
+  <path d="M522 270h185" stroke="#8de0ee" stroke-width="7" marker-end="url(#arrow)"/><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 12 6 0 12z" fill="#8de0ee"/></marker></defs>
+  <g font-family="Arial,sans-serif" font-size="20"><text x="358" y="386" fill="#ffa06d">Striker / hitbox</text><text x="742" y="386" fill="#51dd9d">Torso hurtbox</text><text x="478" y="458" fill="#dbeaff">A hit is checked only during the move's active strike window.</text></g>
+</svg>

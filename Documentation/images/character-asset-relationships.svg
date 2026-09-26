@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="820" viewBox="0 0 1320 820" role="img" aria-labelledby="title desc">
+  <title id="title">A character is assembled from reusable asset references</title>
+  <desc id="desc">A character asset references a model, movement controller, combat controller, and damage controller. Each controller links to its supporting assets.</desc>
+  <defs>
+    <linearGradient id="background" x2="0" y2="1"><stop stop-color="#111d30"/><stop offset="1" stop-color="#09111e"/></linearGradient>
+    <linearGradient id="card" x2="1" y2="1"><stop stop-color="#1b3652"/><stop offset="1" stop-color="#14263d"/></linearGradient>
+    <linearGradient id="root" x2="1" y2="1"><stop stop-color="#14507c"/><stop offset="1" stop-color="#163b5c"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#58c8e8"/></marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; }
+      .title { fill:#f1f6fc; font-size:28px; font-weight:700; }
+      .subtitle { fill:#aebfd2; font-size:16px; }
+      .group-title { fill:#80deef; font-size:16px; font-weight:700; }
+      .asset { fill:#f1f6fc; font-size:19px; font-weight:650; }
+      .file { fill:#b9cadd; font-size:16px; }
+      .note { fill:#91a7bf; font-size:14px; }
+      .connector { fill:none; stroke:#58c8e8; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+      .child-connector { fill:none; stroke:#47789c; stroke-width:2.5; stroke-linecap:round; }
+    </style>
+  </defs>
+  <rect width="1320" height="820" rx="26" fill="url(#background)"/>
+  <text class="title" x="48" y="54">A character is assembled from references</text>
+  <text class="subtitle" x="48" y="84">One character asset connects focused, reusable parts of the game setup.</text>
+
+  <g>
+    <path class="connector" d="M660 204v54M190 258h940M190 258v43M495 258v43M800 258v43M1105 258v43" marker-end="url(#arrow)"/>
+    <path class="child-connector" d="M495 440v30m-75 0h150m-150 0v20m150-20v20"/>
+    <path class="child-connector" d="M800 445v24m-75 0h150m-150 0v18m150-18v18m-150 58v20"/>
+    <path class="child-connector" d="M1105 440v35m-75 0h150m-150 0v20m150-20v20"/>
+  </g>
+
+  <g>
+    <rect x="490" y="108" width="340" height="96" rx="18" fill="url(#root)" stroke="#49bff0" stroke-width="2.5"/>
+    <text class="asset" x="660" y="149" text-anchor="middle">Character</text>
+    <text class="file" x="660" y="178" text-anchor="middle">.j3char</text>
+  </g>
+
+  <g>
+    <rect x="45" y="302" width="290" height="154" rx="18" fill="url(#card)" stroke="#365d7c" stroke-width="2"/>
+    <text class="group-title" x="70" y="339">MODEL</text>
+    <text class="asset" x="70" y="383">Model</text>
+    <text class="file" x="70" y="412">.j3model</text>
+    <text class="note" x="70" y="438">Character appearance and rig</text>
+  </g>
+
+  <g>
+    <rect x="350" y="302" width="290" height="286" rx="18" fill="url(#card)" stroke="#365d7c" stroke-width="2"/>
+    <text class="group-title" x="375" y="339">MOVEMENT</text>
+    <text class="asset" x="375" y="383">Movement Controller</text>
+    <text class="file" x="375" y="411">.j3move</text>
+    <rect x="375" y="490" width="240" height="43" rx="10" fill="#203e5a" stroke="#47789c"/>
+    <text class="asset" x="395" y="518" font-size="17">Input · .j3input</text>
+    <rect x="375" y="544" width="240" height="43" rx="10" fill="#203e5a" stroke="#47789c"/>
+    <text class="asset" x="395" y="572" font-size="17">Locomotion · .j3loco</text>
+  </g>
+
+  <g>
+    <rect x="655" y="302" width="290" height="396" rx="18" fill="url(#card)" stroke="#365d7c" stroke-width="2"/>
+    <text class="group-title" x="680" y="339">COMBAT</text>
+    <text class="asset" x="680" y="383">Combat Controller</text>
+    <text class="file" x="680" y="411">.j3combat</text>
+    <rect x="680" y="457" width="240" height="43" rx="10" fill="#203e5a" stroke="#47789c"/>
+    <text class="asset" x="700" y="485" font-size="17">Weapon · .j3weapon</text>
+    <rect x="680" y="519" width="240" height="43" rx="10" fill="#203e5a" stroke="#47789c"/>
+    <text class="asset" x="700" y="547" font-size="17">Attack Set · .j3attackset</text>
+    <rect x="700" y="575" width="200" height="43" rx="10" fill="#172d45" stroke="#47789c"/>
+    <text class="file" x="720" y="603">Melee Attack · .j3melee</text>
+    <rect x="680" y="635" width="240" height="43" rx="10" fill="#203e5a" stroke="#47789c"/>
+    <text class="asset" x="700" y="663" font-size="17">Striker · .j3striker</text>
+  </g>
+
+  <g>
+    <rect x="960" y="302" width="315" height="286" rx="18" fill="url(#card)" stroke="#365d7c" stroke-width="2"/>
+    <text class="group-title" x="985" y="339">DAMAGE</text>
+    <text class="asset" x="985" y="383">Damage Controller</text>
+    <text class="file" x="985" y="411">.j3damage</text>
+    <rect x="985" y="490" width="265" height="43" rx="10" fill="#203e5a" stroke="#47789c"/>
+    <text class="asset" x="1005" y="518" font-size="17">Hurtbox · .j3hurtbox</text>
+    <rect x="985" y="544" width="265" height="43" rx="10" fill="#203e5a" stroke="#47789c"/>
+    <text class="asset" x="1005" y="572" font-size="17">Reaction · .j3reaction</text>
+  </g>
+
+  <text class="note" x="48" y="772">Illustrative relationship map · optional modules and exact runtime support depend on the project version.</text>
+</svg>
