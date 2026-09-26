@@ -2,7 +2,7 @@
 
 J3 Asset Manager is a desktop editor for building jMonkeyEngine game assets. It lets you import and inspect models, configure characters, edit animation and movement, and assemble combat and encounter data from reusable J3 assets. The project also contains a J3 runtime library that loads supported assets in a game.
 
-If you are new to game authoring, start with [how assets work](getting-started/how-assets-work.md) and [creating an asset](getting-started/create-and-edit.md). The guides explain ideas such as hitboxes and attack phases before introducing the editor fields.
+If you are new to game authoring, start with [how assets work](Documentation/getting-started/how-assets-work.md) and [creating an asset](Documentation/getting-started/create-and-edit.md). The guides explain ideas such as hitboxes and attack phases before introducing the editor fields.
 
 ![J3 Asset Manager character workflow concept](Documentation/images/J3%20Asset%20Manager%20Window.png)
 
@@ -14,49 +14,53 @@ If you are new to game authoring, start with [how assets work](getting-started/h
 
 [![Watch usage example 2](https://img.youtube.com/vi/tHozf9721-c/0.jpg)](https://www.youtube.com/watch?v=tHozf9721-c)
 
+## Use J3Runtime in your game
+
+The editor's runtime library lets a jMonkeyEngine game load J3 assets, spawn configured characters, and run levels. Download [J3Runtime-1.0.jar](Distributions/J3Runtime/J3Runtime-1.0.jar) and [J3AssetManagerCore-1.0.jar](Distributions/J3Runtime/J3AssetManagerCore-1.0.jar), or copy them from the `libraries` folder in a J3 Asset Manager v1.0 distribution ZIP. Read [Use J3Runtime in a jMonkeyEngine game](Documentation/getting-started/use-j3runtime.md) for dependencies, asset placement, and Java code examples.
+
 ## What you build with it
 
 Imagine a character that can throw a punch. You import a model and animation, describe the punch in a **Melee Attack**, and give the move a **Striker**: a small invisible shape that follows the fist while the punch can hit. The target has **Hurtboxes**, invisible receiving regions such as a torso and head. An **Attack Set** assigns the punch to a weapon action; a **Weapon Definition** and **Combat Controller** connect that action to the attacker. A **Damage Controller** connects the target to its hurtboxes and hit reactions. Finally, **Character** assets collect these settings for use by the game.
 
-This is why the editor uses several small files instead of one large character file. You can reuse a move, weapon, or reaction setup, inspect each part separately, and see which reference is missing. Follow the [first melee character walkthrough](getting-started/first-melee-character.md) to assemble the chain. The [hit detection guide](assets/hit-detection.md) explains the collision terms with a diagram and a worked punch example.
+This is why the editor uses several small files instead of one large character file. You can reuse a move, weapon, or reaction setup, inspect each part separately, and see which reference is missing. Follow the [first melee character walkthrough](Documentation/getting-started/first-melee-character.md) to assemble the chain. The [hit detection guide](Documentation/assets/hit-detection.md) explains the collision terms with a diagram and a worked punch example.
 
 ## Start here
 
-1. [What a J3 asset is](getting-started/how-assets-work.md)
-2. [Create, open, edit, and save an asset](getting-started/create-and-edit.md)
-3. [Choose and link other assets](getting-started/references.md)
-4. [Build a first melee character](getting-started/first-melee-character.md)
-5. [Find your way around the project and editor](project-and-editor.md)
+1. [What a J3 asset is](Documentation/getting-started/how-assets-work.md)
+2. [Create, open, edit, and save an asset](Documentation/getting-started/create-and-edit.md)
+3. [Choose and link other assets](Documentation/getting-started/references.md)
+4. [Build a first melee character](Documentation/getting-started/first-melee-character.md)
+5. [Find your way around the project and editor](Documentation/project-and-editor.md)
 
 ## Learn the systems
 
-- [Characters and models](assets/characters.md)
-- [Animation and locomotion](assets/animation.md)
-- [Movement and input](assets/movement-input.md)
-- [Combat and weapons](assets/combat.md)
-- [Hit detection: hitboxes, strikers, and hurtboxes](assets/hit-detection.md)
-- [AI behaviour system](assets/behaviours.md)
-- [Levels, waves, and effects](assets/world-ai-effects.md)
+- [Characters and models](Documentation/assets/characters.md)
+- [Animation and locomotion](Documentation/assets/animation.md)
+- [Movement and input](Documentation/assets/movement-input.md)
+- [Combat and weapons](Documentation/assets/combat.md)
+- [Hit detection: hitboxes, strikers, and hurtboxes](Documentation/assets/hit-detection.md)
+- [AI behaviour system](Documentation/assets/behaviours.md)
+- [Levels, waves, and effects](Documentation/assets/world-ai-effects.md)
 
 ## Asset field guides
 
 | Combat | Character and movement | World and AI |
 | --- | --- | --- |
-| [Melee Attack](assets/melee-attack.md) | [Character](assets/character-asset.md) | [Agent Profile](assets/agent-profile.md) |
-| [Attack Set](assets/attack-set.md) | [Animation Clip](assets/animation-clip.md) | [Game Level](assets/level.md) |
-| [Weapon Definition](assets/weapon.md) | [Locomotion State](assets/locomotion-state.md) | [Enemy Wave](assets/wave.md) |
-| [Striker](assets/striker.md) | [Movement Controller](assets/movement-controller.md) | [Particle Effect](assets/particle-effect.md) |
-| [Hurtbox Profile](assets/hurtbox.md) | [Input Mapping](assets/input-mapping.md) | |
-| [Combat Controller](assets/combat-controller.md) | [Skeletal Mapping](assets/skeletal-mapping.md) | |
-| [Damage Controller](assets/damage-controller.md) | | |
-| [Reaction Data](assets/reaction.md) | | |
-| [Firearm Attack](assets/firearm-attack.md) | | |
-| [Attack Charge](assets/attack-charge.md) | | |
-| [Attack Effects](assets/attack-effects.md) | | |
+| [Melee Attack](Documentation/assets/melee-attack.md) | [Character](Documentation/assets/character-asset.md) | [Agent Profile](Documentation/assets/agent-profile.md) |
+| [Attack Set](Documentation/assets/attack-set.md) | [Animation Clip](Documentation/assets/animation-clip.md) | [Game Level](Documentation/assets/level.md) |
+| [Weapon Definition](Documentation/assets/weapon.md) | [Locomotion State](Documentation/assets/locomotion-state.md) | [Enemy Wave](Documentation/assets/wave.md) |
+| [Striker](Documentation/assets/striker.md) | [Movement Controller](Documentation/assets/movement-controller.md) | [Particle Effect](Documentation/assets/particle-effect.md) |
+| [Hurtbox Profile](Documentation/assets/hurtbox.md) | [Input Mapping](Documentation/assets/input-mapping.md) | |
+| [Combat Controller](Documentation/assets/combat-controller.md) | [Skeletal Mapping](Documentation/assets/skeletal-mapping.md) | |
+| [Damage Controller](Documentation/assets/damage-controller.md) | | |
+| [Reaction Data](Documentation/assets/reaction.md) | | |
+| [Firearm Attack](Documentation/assets/firearm-attack.md) | | |
+| [Attack Charge](Documentation/assets/attack-charge.md) | | |
+| [Attack Effects](Documentation/assets/attack-effects.md) | | |
 
-For every file type, see the [asset catalogue](reference/asset-catalogue.md). The [glossary](reference/glossary.md) defines terms used across the guides.
+For every file type, see the [asset catalogue](Documentation/reference/asset-catalogue.md). The [glossary](Documentation/reference/glossary.md) defines terms used across the guides.
 
-Additional guides: [Imported Model](assets/model-asset.md), [Material](assets/material.md), [AI role configurations](assets/ai-role-configurations.md), [Memory, inventory, and social assets](assets/ai-supporting-assets.md), [Vehicle Definition](assets/vehicle.md), and [Grapple and Finisher drafts](assets/grapple-finisher.md).
+Additional guides: [Imported Model](Documentation/assets/model-asset.md), [Material](Documentation/assets/material.md), [AI role configurations](Documentation/assets/ai-role-configurations.md), [Memory, inventory, and social assets](Documentation/assets/ai-supporting-assets.md), [Vehicle Definition](Documentation/assets/vehicle.md), and [Grapple and Finisher drafts](Documentation/assets/grapple-finisher.md).
 
 ## Features
 
