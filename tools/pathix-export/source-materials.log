@@ -1,0 +1,216 @@
+Reloading external rigs...
+Reloading external metarigs...
+LOADED UPDATER!
+
+### Loading Rokoko Studio Live for Blender...
+No connection to the server.
+SILENT LOGIN
+### Loaded Rokoko Studio Live for Blender successfully!
+
+Loading BVH Retargeter
+BVH Retargeter loaded
+ℹ️  blendkit: Verbose is enabled [06:56:09.468, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [06:56:09.469, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [06:56:09.471, client_lib.py:156]
+module changed on disk: 'C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\bl_pkg\\__init__.py' reloading...
+Created history step c657953d-9f91-4036-948f-b164217c48e4
+ℹ️  blendkit: Created new search history step [06:56:09.783, search.py:2698]
+ℹ️  blendkit: No temporarily enabled addons to clean up [06:56:09.783, download.py:419]
+00:03.828  blend            | Read blend: "D:\My Games\Ultimate Bounty Hunter 3D\Environments\Carrribean Territory\Carribean Territory.blend"
+00:04.734  reports          | Read library: 'C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\assets\Pathix nodes.blend', 'C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\assets\Pathix nodes.blend', parent '<direct>'
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+ℹ️  blendkit: No temporarily enabled addons to clean up [06:56:12.379, download.py:419]
+MATERIAL GBG_Facade_2
+C:\Users\VTStudios\Documents\Projects\GitHub\J3 Asset Manager\tools\pathix-export\inspect_source_materials.py:9: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not material.use_nodes:
+  IMAGE Image Texture basecolor.png.008 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_04\basecolor.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 roughness.png.008 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_04\roughness.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 normal.png.008 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_04\normal.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL GBG_Trim
+  IMAGE Image Texture basecolor.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\basecolor.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 roughness.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\roughness.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 normal.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\normal.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_Facade_1120
+  IMAGE Image Texture basecolor.png.008 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_04\basecolor.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 roughness.png.008 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_04\roughness.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 normal.png.008 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_04\normal.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_Facade_7132
+  IMAGE Image Texture basecolor.png.002 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_03\basecolor.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 roughness.png.002 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_03\roughness.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 normal.png.002 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_03\normal.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_Facade_8119
+  IMAGE Image Texture basecolor.png.002 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_03\basecolor.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 roughness.png.002 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_03\roughness.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 normal.png.002 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\brick\brick_03\normal.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_StoreInterior_storefront_interior_barbershop_4768
+  IMAGE Image Texture storefront_interior_barbershop.png (2048, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\store front\storefront_interior_barbershop.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_StoreInterior_storefront_interior_cafe_7132
+  IMAGE Image Texture storefront_interior_cafe.png (2048, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\store front\storefront_interior_cafe.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_StoreInterior_storefront_interior_cafe_8119
+  IMAGE Image Texture storefront_interior_cafe.png (2048, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\store front\storefront_interior_cafe.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_StoreInterior_storefront_interior_clothing_8119
+  IMAGE Image Texture storefront_interior_clothing.png (2048, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\store front\storefront_interior_clothing.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_StoreInterior_storefront_interior_grocery_7132
+  IMAGE Image Texture storefront_interior_grocery.png (2048, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\store front\storefront_interior_grocery.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_StoreInterior_storefront_interior_grocery_8119
+  IMAGE Image Texture storefront_interior_grocery.png (2048, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\store front\storefront_interior_grocery.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_StoreInterior_storefront_interior_hardware_4768
+  IMAGE Image Texture storefront_interior_hardware.png (2048, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\store front\storefront_interior_hardware.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_Trim_1120
+  IMAGE Image Texture basecolor.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\basecolor.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 roughness.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\roughness.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 normal.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\normal.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_Trim_7132
+  IMAGE Image Texture basecolor.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\basecolor.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 roughness.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\roughness.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 normal.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\normal.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL PBG_Trim_8119
+  IMAGE Image Texture basecolor.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\basecolor.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 roughness.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\roughness.png vector= [] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 normal.png.004 (1024, 1024) C:\Users\VTStudios\Documents\Projects\Blender\Game Building Generator\Game Building Generator Assets\PBR\concrete\concrete_wall_02\normal.png vector= [] extension= REPEAT interpolation= Linear
+MATERIAL road1
+  IMAGE Image Texture Carribean Boys Road_road1_SurfaceColor (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 Carribean Boys Road_road1_SurfaceRoughness (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 Carribean Boys Road_road1_SurfaceNormal (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  UVNODE UV Map ShaderNodeUVMap uv=JME_Bake
+MATERIAL road1.001
+  IMAGE Image Texture Carribean Boys Road_road1_SurfaceColor.001 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 Carribean Boys Road_road1_SurfaceRoughness.001 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 Carribean Boys Road_road1_SurfaceNormal.001 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  UVNODE UV Map ShaderNodeUVMap uv=JME_Bake
+MATERIAL road1.002
+  IMAGE Image Texture Carribean Boys Road_road1_SurfaceColor.002 (1024, 1024)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 Carribean Boys Road_road1_SurfaceRoughness.002 (1024, 1024)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 Carribean Boys Road_road1_SurfaceNormal.002 (1024, 1024)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  UVNODE UV Map ShaderNodeUVMap uv=JME_Bake
+MATERIAL road1.003
+  IMAGE Image Texture Carribean Boys Road_road1_SurfaceColor.003 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 Carribean Boys Road_road1_SurfaceRoughness.003 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 Carribean Boys Road_road1_SurfaceNormal.003 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  UVNODE UV Map ShaderNodeUVMap uv=JME_Bake
+MATERIAL road1.004
+  IMAGE Image Texture Carribean Boys Road_road1_SurfaceColor.004 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 Carribean Boys Road_road1_SurfaceRoughness.004 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 Carribean Boys Road_road1_SurfaceNormal.004 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  UVNODE UV Map ShaderNodeUVMap uv=JME_Bake
+MATERIAL side walk 1
+  IMAGE Image Texture Carribean Boys Road_side_walk_1_SurfaceColor (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 Carribean Boys Road_side_walk_1_SurfaceRoughness (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 Carribean Boys Road_side_walk_1_SurfaceNormal (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  UVNODE UV Map ShaderNodeUVMap uv=JME_Bake
+MATERIAL side walk 1.001
+  IMAGE Image Texture Carribean Boys Road_side_walk_1_SurfaceColor.001 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 Carribean Boys Road_side_walk_1_SurfaceRoughness.001 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 Carribean Boys Road_side_walk_1_SurfaceNormal.001 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  UVNODE UV Map ShaderNodeUVMap uv=JME_Bake
+MATERIAL side walk 1.002
+  IMAGE Image Texture Carribean Boys Road_side_walk_1_SurfaceColor.002 (1024, 1024)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 Carribean Boys Road_side_walk_1_SurfaceRoughness.002 (1024, 1024)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 Carribean Boys Road_side_walk_1_SurfaceNormal.002 (1024, 1024)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  UVNODE UV Map ShaderNodeUVMap uv=JME_Bake
+MATERIAL side walk 1.003
+  IMAGE Image Texture Carribean Boys Road_side_walk_1_SurfaceColor.003 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 Carribean Boys Road_side_walk_1_SurfaceRoughness.003 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 Carribean Boys Road_side_walk_1_SurfaceNormal.003 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  UVNODE UV Map ShaderNodeUVMap uv=JME_Bake
+MATERIAL side walk 1.004
+  IMAGE Image Texture Carribean Boys Road_side_walk_1_SurfaceColor.004 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 Carribean Boys Road_side_walk_1_SurfaceRoughness.004 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 Carribean Boys Road_side_walk_1_SurfaceNormal.004 (2048, 2048)  vector= ['UV Map.UV'] extension= REPEAT interpolation= Linear
+  UVNODE UV Map ShaderNodeUVMap uv=JME_Bake
+MATERIAL road1
+  IMAGE Image Texture.005 Asphalt010_4K_Displacement.jpg (4096, 4096) //..\yousef\MATR\Asphalt010_4K_Displacement.jpg vector= ['Reroute.005.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.006 Asphalt010_4K_Color.jpg (4096, 4096) //..\yousef\MATR\Asphalt010_4K_Color.jpg vector= ['Reroute.005.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.007 Asphalt010_4K_Roughness.jpg (4096, 4096) //..\yousef\MATR\Asphalt010_4K_Roughness.jpg vector= ['Reroute.005.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.008 Asphalt010_4K_NormalGL.jpg (4096, 4096) //..\yousef\MATR\Asphalt010_4K_NormalGL.jpg vector= ['Reroute.005.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.009 Asphalt010_4K_Opacity.jpg (4096, 4096) //..\yousef\MATR\Asphalt010_4K_Opacity.jpg vector= ['Reroute.005.Output'] extension= REPEAT interpolation= Linear
+  UVNODE Mapping.002 ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  UVNODE Mapping.003 ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  UVNODE Mapping.004 ShaderNodeMapping scale=(0.10000000149011612, 0.10000000149011612, 0.10000000149011612)
+  UVNODE Mapping.005 ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  UVNODE Texture Coordinate ShaderNodeTexCoord 
+  IMAGE Image Texture Asphalt010_2K-JPG_Displacement.jpg (2048, 2048) //..\yousef\TEXTURES\road\road6\Asphalt010_2K-JPG_Displacement.jpg vector= ['Reroute.003.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.010 Asphalt010_2K-JPG_Color.jpg (2048, 2048) //..\yousef\TEXTURES\road\road6\Asphalt010_2K-JPG_Color.jpg vector= ['Reroute.003.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.011 Asphalt010_2K-JPG_Roughness.jpg (2048, 2048) //..\yousef\TEXTURES\road\road6\Asphalt010_2K-JPG_Roughness.jpg vector= ['Reroute.003.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.012 Asphalt010_2K-JPG_NormalGL.jpg (2048, 2048) //..\yousef\TEXTURES\road\road6\Asphalt010_2K-JPG_NormalGL.jpg vector= ['Reroute.003.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.013 Asphalt010_2K-JPG_Opacity.jpg (2048, 2048) //..\yousef\TEXTURES\road\road6\Asphalt010_2K-JPG_Opacity.jpg vector= ['Reroute.003.Output'] extension= REPEAT interpolation= Linear
+MATERIAL side walk 1
+  IMAGE Image Texture.005 4K-road_11-displacement.jpg.001 (4096, 4096) //..\yousef\MATR\4K-road_11-displacement.jpg vector= ['Reroute.001.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.006 4K-road_11-diffuse.jpg.001 (4096, 4096) //..\yousef\MATR\4K-road_11-diffuse.jpg vector= ['Reroute.001.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.007 4K-road_11-specular.jpg.001 (4096, 4096) //..\yousef\MATR\4K-road_11-specular.jpg vector= ['Reroute.001.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.008 4K-road_11-normal.jpg.001 (4096, 4096) //..\yousef\MATR\4K-road_11-normal.jpg vector= ['Reroute.001.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.009 4K-road_11-ao.jpg.001 (4096, 4096) //..\yousef\MATR\4K-road_11-ao.jpg vector= ['Reroute.001.Output'] extension= REPEAT interpolation= Linear
+  UVNODE Mapping.001 ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+MATERIAL side walk 2
+  UVNODE Mapping.001 ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  IMAGE Image Texture 4K-road_10-displacement.jpg (4096, 2455) //..\yousef\TEXTURES\side walk\side walk 1\4K-road_10-displacement.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 4K-road_10-diffuse.jpg (4096, 2455) //..\yousef\TEXTURES\side walk\side walk 1\4K-road_10-diffuse.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 4K-road_10-specular.jpg (4096, 2455) //..\yousef\TEXTURES\side walk\side walk 1\4K-road_10-specular.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.003 4K-road_10-normal.jpg (4096, 2455) //..\yousef\TEXTURES\side walk\side walk 1\4K-road_10-normal.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.004 4K-road_10-ao.jpg (4096, 2455) //..\yousef\TEXTURES\side walk\side walk 1\4K-road_10-ao.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  UVNODE Mapping ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  UVNODE Texture Coordinate ShaderNodeTexCoord 
+MATERIAL side walk 3
+  UVNODE Mapping.001 ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  IMAGE Image Texture PavingStones085_4K_Displacement.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 3\PavingStones085_4K_Displacement.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 PavingStones085_4K_Color.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 3\PavingStones085_4K_Color.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 PavingStones085_4K_Roughness.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 3\PavingStones085_4K_Roughness.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.003 PavingStones085_4K_NormalGL.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 3\PavingStones085_4K_NormalGL.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.004 PavingStones085_4K_AmbientOcclusion.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 3\PavingStones085_4K_AmbientOcclusion.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  UVNODE Mapping ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  UVNODE Texture Coordinate ShaderNodeTexCoord 
+MATERIAL side walk 4
+  UVNODE Mapping.001 ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  IMAGE Image Texture hexagonal_concrete_paving_disp_4k.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 4\hexagonal_concrete_paving_disp_4k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 hexagonal_concrete_paving_diff_4k.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 4\hexagonal_concrete_paving_diff_4k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 hexagonal_concrete_paving_rough_4k.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 4\hexagonal_concrete_paving_rough_4k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.003 hexagonal_concrete_paving_nor_gl_4k.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 4\hexagonal_concrete_paving_nor_gl_4k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.004 hexagonal_concrete_paving_ao_4k.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 4\hexagonal_concrete_paving_ao_4k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+MATERIAL side walk 5
+  UVNODE Mapping.001 ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  IMAGE Image Texture large_floor_tiles_02_disp_4k.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 2\large_floor_tiles_02_disp_4k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 large_floor_tiles_02_diff_4k.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 2\large_floor_tiles_02_diff_4k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 large_floor_tiles_02_rough_4k.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 2\large_floor_tiles_02_rough_4k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.003 large_floor_tiles_02_nor_gl_4k.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 2\large_floor_tiles_02_nor_gl_4k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.004 large_floor_tiles_02_ao_4k.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 2\large_floor_tiles_02_ao_4k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+MATERIAL side walk 6
+  UVNODE Mapping.001 ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  IMAGE Image Texture 4K-graphite_road-displacement.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 5\4K-graphite_road-displacement.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 4K-graphite_road-diffuse.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 5\4K-graphite_road-diffuse.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 4K-graphite_road-specular.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 5\4K-graphite_road-specular.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.003 4K-graphite_road-normal.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 5\4K-graphite_road-normal.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.004 4K-graphite_road-ao.jpg (4096, 4096) //..\yousef\TEXTURES\side walk\side walk 5\4K-graphite_road-ao.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+MATERIAL side walk 7
+  UVNODE Mapping.001 ShaderNodeMapping scale=(1.0, 1.0, 1.0)
+  IMAGE Image Texture tiles_0128_height_2k.png (2048, 2048) //..\yousef\TEXTURES\side walk\side walk 6\tiles_0128_height_2k.png vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.001 tiles_0128_color_2k.jpg (2048, 2048) //..\yousef\TEXTURES\side walk\side walk 6\tiles_0128_color_2k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.002 tiles_0128_roughness_2k.jpg (2048, 2048) //..\yousef\TEXTURES\side walk\side walk 6\tiles_0128_roughness_2k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.003 tiles_0128_normal_opengl_2k.png (2048, 2048) //..\yousef\TEXTURES\side walk\side walk 6\tiles_0128_normal_opengl_2k.png vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+  IMAGE Image Texture.004 tiles_0128_ao_2k.jpg (2048, 2048) //..\yousef\TEXTURES\side walk\side walk 6\tiles_0128_ao_2k.jpg vector= ['Reroute.Output'] extension= REPEAT interpolation= Linear
+OBJECT Building 01 uv= ['UVMap'] materials= ['PBG_Trim_7132', 'PBG_Metal_7132', 'PBG_Facade_7132', 'PBG_Roof_7132', 'PBG_Glass_7132', 'PBG_Foliage_7132', 'PBG_Wood_7132', 'PBG_Door_7132', 'PBG_AwningA_7132', 'PBG_AwningB_7132', 'PBG_WindowInterior_7132', 'PBG_BalconyDoorInterior_7132', 'PBG_WindowAC_7132', 'PBG_StoreInterior_storefront_interior_barbershop_4768', 'PBG_StoreInterior_storefront_interior_cafe_7132']
+OBJECT Building 02 uv= ['UVMap'] materials= ['PBG_Trim_7132', 'PBG_Metal_7132', 'PBG_Facade_7132', 'PBG_Roof_7132', 'PBG_Glass_7132', 'PBG_Foliage_7132', 'PBG_Wood_7132', 'PBG_Door_7132', 'PBG_AwningA_7132', 'PBG_AwningB_7132', 'PBG_WindowInterior_7132', 'PBG_BalconyDoorInterior_7132', 'PBG_WindowAC_7132', 'PBG_StoreInterior_storefront_interior_grocery_7132', 'PBG_StoreInterior_storefront_interior_cafe_7132']
+OBJECT Building 03 uv= ['UVMap'] materials= ['PBG_Trim_8119', 'PBG_Metal_8119', 'PBG_Facade_8119', 'PBG_Roof_8119', 'PBG_Glass_8119', 'PBG_Foliage_8119', 'PBG_Wood_8119', 'PBG_Door_8119', 'PBG_AwningA_8119', 'PBG_AwningB_8119', 'PBG_WindowInterior_8119', 'PBG_BalconyDoorInterior_8119', 'PBG_WindowAC_8119', 'PBG_StoreInterior_storefront_interior_grocery_8119', 'PBG_StoreInterior_storefront_interior_cafe_8119', 'PBG_StoreInterior_storefront_interior_clothing_8119']
+OBJECT Building 03.001 uv= ['UVMap'] materials= ['PBG_Trim_8119', 'PBG_Metal_8119', 'PBG_Facade_8119', 'PBG_Roof_8119', 'PBG_Glass_8119', 'PBG_Foliage_8119', 'PBG_Wood_8119', 'PBG_Door_8119', 'PBG_AwningA_8119', 'PBG_AwningB_8119', 'PBG_WindowInterior_8119', 'PBG_BalconyDoorInterior_8119', 'PBG_WindowAC_8119', 'PBG_StoreInterior_storefront_interior_grocery_8119', 'PBG_StoreInterior_storefront_interior_cafe_8119', 'PBG_StoreInterior_storefront_interior_clothing_8119']
+OBJECT Building 03.002 uv= ['UVMap'] materials= ['PBG_Trim_8119', 'PBG_Metal_8119', 'PBG_Facade_8119', 'PBG_Roof_8119', 'PBG_Glass_8119', 'PBG_Foliage_8119', 'PBG_Wood_8119', 'PBG_Door_8119', 'PBG_AwningA_8119', 'PBG_AwningB_8119', 'PBG_WindowInterior_8119', 'PBG_BalconyDoorInterior_8119', 'PBG_WindowAC_8119', 'PBG_StoreInterior_storefront_interior_grocery_8119', 'PBG_StoreInterior_storefront_interior_cafe_8119', 'PBG_StoreInterior_storefront_interior_clothing_8119']
+OBJECT Building 03.003 uv= ['UVMap'] materials= ['PBG_Trim_8119', 'PBG_Metal_8119', 'PBG_Facade_8119', 'PBG_Roof_8119', 'PBG_Glass_8119', 'PBG_Foliage_8119', 'PBG_Wood_8119', 'PBG_Door_8119', 'PBG_AwningA_8119', 'PBG_AwningB_8119', 'PBG_WindowInterior_8119', 'PBG_BalconyDoorInterior_8119', 'PBG_WindowAC_8119', 'PBG_StoreInterior_storefront_interior_grocery_8119', 'PBG_StoreInterior_storefront_interior_cafe_8119', 'PBG_StoreInterior_storefront_interior_clothing_8119']
+OBJECT Building 03.004 uv= ['UVMap'] materials= ['PBG_Trim_8119', 'PBG_Metal_8119', 'PBG_Facade_8119', 'PBG_Roof_8119', 'PBG_Glass_8119', 'PBG_Foliage_8119', 'PBG_Wood_8119', 'PBG_Door_8119', 'PBG_AwningA_8119', 'PBG_AwningB_8119', 'PBG_WindowInterior_8119', 'PBG_BalconyDoorInterior_8119', 'PBG_WindowAC_8119', 'PBG_StoreInterior_storefront_interior_grocery_8119', 'PBG_StoreInterior_storefront_interior_cafe_8119', 'PBG_StoreInterior_storefront_interior_clothing_8119']
+OBJECT Building 03.005 uv= ['UVMap'] materials= ['PBG_Trim_8119', 'PBG_Metal_8119', 'PBG_Facade_8119', 'PBG_Roof_8119', 'PBG_Glass_8119', 'PBG_Foliage_8119', 'PBG_Wood_8119', 'PBG_Door_8119', 'PBG_AwningA_8119', 'PBG_AwningB_8119', 'PBG_WindowInterior_8119', 'PBG_BalconyDoorInterior_8119', 'PBG_WindowAC_8119', 'PBG_StoreInterior_storefront_interior_grocery_8119', 'PBG_StoreInterior_storefront_interior_cafe_8119', 'PBG_StoreInterior_storefront_interior_clothing_8119']
+OBJECT Building 04 uv= ['UVMap'] materials= ['PBG_Trim_1120', 'PBG_Metal_1120', 'PBG_Facade_1120', 'PBG_Roof_1120', 'PBG_Glass_1120', 'PBG_Foliage_1120', 'PBG_Wood_1120', 'PBG_Door_1120', 'PBG_AwningA_1120', 'PBG_AwningB_1120', 'PBG_WindowInterior_1120', 'PBG_BalconyDoorInterior_1120', 'PBG_WindowAC_1120']
+OBJECT Building 04.001 uv= ['UVMap'] materials= ['PBG_Trim_1120', 'PBG_Metal_1120', 'PBG_Facade_1120', 'PBG_Roof_1120', 'PBG_Glass_1120', 'PBG_Foliage_1120', 'PBG_Wood_1120', 'PBG_Door_1120', 'PBG_AwningA_1120', 'PBG_AwningB_1120', 'PBG_WindowInterior_1120', 'PBG_BalconyDoorInterior_1120', 'PBG_WindowAC_1120']
+OBJECT Building 04.002 uv= ['UVMap'] materials= ['PBG_Trim_1120', 'PBG_Metal_1120', 'PBG_Facade_1120', 'PBG_Roof_1120', 'PBG_Glass_1120', 'PBG_Foliage_1120', 'PBG_Wood_1120', 'PBG_Door_1120', 'PBG_AwningA_1120', 'PBG_AwningB_1120', 'PBG_WindowInterior_1120', 'PBG_BalconyDoorInterior_1120', 'PBG_WindowAC_1120']
+OBJECT Building 05 uv= ['UVMap'] materials= ['GBG_Trim', 'GBG_Metal', 'GBG_Facade_2', 'GBG_Roof', 'GBG_Glass', 'GBG_Foliage', 'PBG_Wood_4768', 'PBG_Door_4768', 'PBG_AwningA_4768', 'PBG_AwningB_4768', 'PBG_WindowInterior_4768', 'PBG_BalconyDoorInterior_4768', 'PBG_WindowAC_4768', 'PBG_StoreInterior_storefront_interior_hardware_4768', 'PBG_StoreInterior_storefront_interior_barbershop_4768']
+OBJECT Building 05.001 uv= ['UVMap'] materials= ['GBG_Trim', 'GBG_Metal', 'GBG_Facade_2', 'GBG_Roof', 'GBG_Glass', 'GBG_Foliage', 'PBG_Wood_4768', 'PBG_Door_4768', 'PBG_AwningA_4768', 'PBG_AwningB_4768', 'PBG_WindowInterior_4768', 'PBG_BalconyDoorInterior_4768', 'PBG_WindowAC_4768', 'PBG_StoreInterior_storefront_interior_hardware_4768', 'PBG_StoreInterior_storefront_interior_barbershop_4768']
+OBJECT Building 05.002 uv= ['UVMap'] materials= ['GBG_Trim', 'GBG_Metal', 'GBG_Facade_2', 'GBG_Roof', 'GBG_Glass', 'GBG_Foliage', 'PBG_Wood_4768', 'PBG_Door_4768', 'PBG_AwningA_4768', 'PBG_AwningB_4768', 'PBG_WindowInterior_4768', 'PBG_BalconyDoorInterior_4768', 'PBG_WindowAC_4768', 'PBG_StoreInterior_storefront_interior_hardware_4768', 'PBG_StoreInterior_storefront_interior_barbershop_4768']
+OBJECT Building 05.003 uv= ['UVMap'] materials= ['GBG_Trim', 'GBG_Metal', 'GBG_Facade_2', 'GBG_Roof', 'GBG_Glass', 'GBG_Foliage', 'PBG_Wood_4768', 'PBG_Door_4768', 'PBG_AwningA_4768', 'PBG_AwningB_4768', 'PBG_WindowInterior_4768', 'PBG_BalconyDoorInterior_4768', 'PBG_WindowAC_4768', 'PBG_StoreInterior_storefront_interior_hardware_4768', 'PBG_StoreInterior_storefront_interior_barbershop_4768']
+OBJECT Carribean Boys Road uv= ['UVMap'] materials= []
+### Unloading Rokoko Studio Live for Blender...
+No connection to the server.
+### Unloaded Rokoko Studio Live for Blender successfully!
+
+ℹ️  blendkit: Unregistering Blendkit add-on [06:56:19.002, __init__.py:2973]
+ℹ️  blendkit: No temporarily enabled addons to clean up [06:56:19.003, download.py:419]
+
+ERROR: Could not connect to the endpoint URL: "https://cognito-idp.us-east-1.amazonaws.com/" 
+
+
+Blender quit

@@ -26,7 +26,15 @@ J3 Asset Manager is organized around a game project. The project browser provide
 
 The exact layout and supported tools may change as development continues. Screenshots should be captured from the current build and labeled with the version or commit when practical.
 
-## Saving and references
+## J3 Scene Editor (new in v1.1)
+
+Open **J3 Scene Editor** from the tools menu to assemble models, groups, lights, and cameras in a scene. Use the hierarchy to select and organize objects, then edit their properties in the inspector. The viewport provides move, rotate, and scale tools, snapping, and framing controls. You can duplicate objects, add box colliders, attach lights, and use external `.j3cam` profiles for scene cameras. Reload linked models and camera profiles after updating their source files.
+
+## J3 Model Editor
+
+Open **J3 Model Editor** from the tools menu for model editing. GLB workflows include transforms, material properties, embedded texture replacement, and metallic/roughness channel editing. Keep a copy of source models before editing. Animation and script workflows support J3O and GLB model sources; see [animation and locomotion](assets/animation.md) for the distinction between source models and clip assets.
+
+## Saving assets
 
 J3 assets are intended to hold reusable configuration and references to other project resources. Keep referenced files inside the project where possible, use descriptive names, and resolve validation messages before relying on an asset at runtime. The runtime integration and file support vary by asset type.
 

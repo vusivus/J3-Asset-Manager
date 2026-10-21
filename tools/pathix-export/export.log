@@ -1,0 +1,114 @@
+Reloading external rigs...
+Reloading external metarigs...
+LOADED UPDATER!
+
+### Loading Rokoko Studio Live for Blender...
+SILENT LOGIN
+### Loaded Rokoko Studio Live for Blender successfully!
+
+Loading BVH Retargeter
+BVH Retargeter loaded
+ℹ️  blendkit: Verbose is enabled [06:12:34.582, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [06:12:34.583, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [06:12:34.585, client_lib.py:156]
+module changed on disk: 'C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\bl_pkg\\__init__.py' reloading...
+Created history step f5bc9d54-ea24-4b5b-ac61-87007911f91a
+ℹ️  blendkit: Created new search history step [06:12:34.884, search.py:2698]
+ℹ️  blendkit: No temporarily enabled addons to clean up [06:12:34.884, download.py:419]
+00:04.703  blend            | Read blend: "D:\My Games\Ultimate Bounty Hunter 3D\Environments\Carrribean Territory\Carribean Territory.blend"
+00:04.766  reports          | Read library: 'C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\assets\Pathix nodes.blend', 'C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\assets\Pathix nodes.blend', parent '<direct>'
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+ℹ️  blendkit: No temporarily enabled addons to clean up [06:12:36.100, download.py:419]
+register_class(...):
+Info: Registering operator class: 'PATHIX_OT_export_jme_glb', bl_idname 'pathix.export_jme_glb' has been registered before, unregistering previous
+PATHIX_SOURCE Carribean Boys Road
+PATHIX_MATERIALS []
+00:07.359  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_disp_4k.jpg does not exist.
+00:07.359  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_nor_gl_4k.jpg does not exist.
+00:07.359  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_rough_4k.jpg does not exist.
+00:07.359  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_diff_4k.jpg does not exist.
+00:07.516  cycles           | ERROR Failed to load 4 image files
+00:09.953  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_disp_4k.jpg does not exist.
+00:09.953  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_nor_gl_4k.jpg does not exist.
+00:09.953  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_rough_4k.jpg does not exist.
+00:09.953  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_diff_4k.jpg does not exist.
+00:10.094  cycles           | ERROR Failed to load 4 image files
+00:12.688  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_disp_4k.jpg does not exist.
+00:12.688  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_nor_gl_4k.jpg does not exist.
+00:12.688  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_rough_4k.jpg does not exist.
+00:12.688  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_diff_4k.jpg does not exist.
+00:12.844  cycles           | ERROR Failed to load 4 image files
+00:18.641  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_disp_4k.jpg does not exist.
+00:18.641  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_nor_gl_4k.jpg does not exist.
+00:18.641  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_rough_4k.jpg does not exist.
+00:18.641  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_diff_4k.jpg does not exist.
+00:18.797  cycles           | ERROR Failed to load 4 image files
+00:23.203  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_disp_4k.jpg does not exist.
+00:23.203  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_nor_gl_4k.jpg does not exist.
+00:23.203  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_rough_4k.jpg does not exist.
+00:23.203  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_diff_4k.jpg does not exist.
+00:23.359  cycles           | ERROR Failed to load 4 image files
+00:26.328  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_disp_4k.jpg does not exist.
+00:26.328  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_nor_gl_4k.jpg does not exist.
+00:26.328  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_rough_4k.jpg does not exist.
+00:26.328  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_diff_4k.jpg does not exist.
+00:26.469  cycles           | ERROR Failed to load 4 image files
+00:33.031  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_disp_4k.jpg does not exist.
+00:33.031  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_nor_gl_4k.jpg does not exist.
+00:33.031  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_rough_4k.jpg does not exist.
+00:33.031  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_diff_4k.jpg does not exist.
+00:33.156  cycles           | ERROR Failed to load 4 image files
+00:39.406  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_disp_4k.jpg does not exist.
+00:39.406  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_nor_gl_4k.jpg does not exist.
+00:39.406  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_rough_4k.jpg does not exist.
+00:39.406  cycles           | WARNING Image file C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\yousef\TEXTURES\forest_leaves_04_diff_4k.jpg does not exist.
+00:39.547  cycles           | ERROR Failed to load 4 image files
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+06:13:15 | INFO: Starting glTF 2.0 export
+06:13:15 | INFO: Extracting primitive: Plane.004
+06:13:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+06:13:15 | INFO: Primitives created: 1
+06:13:15 | INFO: Extracting primitive: Plane.002
+06:13:15 | INFO: Primitives created: 1
+06:13:15 | INFO: Extracting primitive: Plane.003
+06:13:15 | WARNING: Image '<bpy_struct, Image("forest_leaves_04_rough_4k.jpg") at 0x000001FCEB442420>' has no size and cannot be exported.
+06:13:15 | INFO: Primitives created: 1
+06:13:15 | INFO: Extracting primitive: Plane.005
+06:13:16 | INFO: Primitives created: 1
+06:13:16 | INFO: Extracting primitive: Plane.001
+06:13:16 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+06:13:16 | INFO: Primitives created: 1
+06:13:16 | INFO: Extracting primitive: Plane.006
+06:13:16 | INFO: Primitives created: 1
+06:13:16 | INFO: Finished glTF 2.0 export in 1.5283913612365723 s
+
+Info: Exported 6 mesh part(s) to C:\Users\VTStudios\Documents\Projects\GitHub\J3 Asset Manager\tools\pathix-export\Carribean_Boys_Road_fixed.glb
+PATHIX_EXPORTED C:\Users\VTStudios\Documents\Projects\GitHub\J3 Asset Manager\tools\pathix-export\Carribean_Boys_Road_fixed.glb
+### Unloading Rokoko Studio Live for Blender...
+### Unloaded Rokoko Studio Live for Blender successfully!
+
+ℹ️  blendkit: Unregistering Blendkit add-on [06:13:18.102, __init__.py:2973]
+ℹ️  blendkit: No temporarily enabled addons to clean up [06:13:18.103, download.py:419]
+Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\modules\addon_utils.py", line 594, in disable
+    mod.unregister()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\__init__.py", line 801, in unregister
+    pathix_jme_export.unregister()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VTStudios\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\pathix\pathix_jme_export.py", line 402, in unregister
+    bpy.utils.unregister_class(PATHIX_OT_export_jme_glb)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: unregister_class(...):, missing bl_rna attribute from '_RNAMeta' instance (may not be registered)
+Exception in module unregister(): 'C:\\Users\\VTStudios\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\scripts\\addons\\pathix\\__init__.py'
+
+Blender quit

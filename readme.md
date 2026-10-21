@@ -1,5 +1,9 @@
 # J3 Asset Manager documentation
 
+## Version 1.1
+
+Version 1.1 introduces the **J3 Scene Editor**, model and animation workflows for J3O and GLB, and updated GLB material and texture handling. Java packages now use `com.jme.j3asset`; existing game imports must be updated when replacing the libraries. See the [v1.1 release notes](Documentation/releases/v1.1.md), [scene and model editor guide](Documentation/project-and-editor.md), and [runtime integration examples](Documentation/getting-started/use-j3runtime.md).
+
 J3 Asset Manager is a desktop editor for building jMonkeyEngine game assets. It lets you import and inspect models, configure characters, edit animation and movement, and assemble combat and encounter data from reusable J3 assets. The project also contains a J3 runtime library that loads supported assets in a game.
 
 If you are new to game authoring, start with [how assets work](Documentation/getting-started/how-assets-work.md) and [creating an asset](Documentation/getting-started/create-and-edit.md). The guides explain ideas such as hitboxes and attack phases before introducing the editor fields.
@@ -16,7 +20,7 @@ If you are new to game authoring, start with [how assets work](Documentation/get
 
 ## Use J3Runtime in your game
 
-The editor's runtime library lets a jMonkeyEngine game load J3 assets, spawn configured characters, and run levels. Download [J3Runtime-1.0.jar](Distributions/J3Runtime/J3Runtime-1.0.jar) and [J3AssetManagerCore-1.0.jar](Distributions/J3Runtime/J3AssetManagerCore-1.0.jar), or copy them from the `libraries` folder in a J3 Asset Manager v1.0 distribution ZIP. Read [Use J3Runtime in a jMonkeyEngine game](Documentation/getting-started/use-j3runtime.md) for dependencies, asset placement, and Java code examples.
+The editor's runtime library lets a jMonkeyEngine game load J3 assets, spawn configured characters, and run levels. Download [J3Runtime-1.1.jar](Distributions/J3Runtime/J3Runtime-1.1.jar) and [J3AssetManagerCore-1.1.jar](Distributions/J3Runtime/J3AssetManagerCore-1.1.jar), or copy them from the `libraries` folder in a J3 Asset Manager v1.1 distribution ZIP. Read [Use J3Runtime in a jMonkeyEngine game](Documentation/getting-started/use-j3runtime.md) for dependencies, asset placement, and Java code examples.
 
 ## What you build with it
 
@@ -99,3 +103,4 @@ In the long run, a website, with an asset store could be created, with the right
 The immediate value of a donation would be more focused development time for the gaps users encounter now: connecting assets without broken references, previewing the result in the editor, and confirming that the same data behaves as expected in a running jMonkeyEngine game. Donations are voluntary.
 
 Currently I accept Payoneer donations (from a business account or Paypal): [Payoneer donation link](https://link.payoneer.com/Token?t=554BA3D278DB4497A12C97970D236CE7&src=pl)
+

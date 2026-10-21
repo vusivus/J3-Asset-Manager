@@ -4,9 +4,9 @@ J3 Asset Manager edits J3 asset files. `J3Runtime` loads those files in a jMonke
 
 ## Get the libraries
 
-For version 1.0, download both [J3Runtime-1.0.jar](../../Distributions/J3Runtime/J3Runtime-1.0.jar) and [J3AssetManagerCore-1.0.jar](../../Distributions/J3Runtime/J3AssetManagerCore-1.0.jar) from this repository's `Distributions/J3Runtime` folder. Put them in your game's `libs` folder. `J3Runtime` uses the asset classes in `J3AssetManagerCore`; it is not a standalone JAR.
+For version 1.1, download both [J3Runtime-1.1.jar](../../Distributions/J3Runtime/J3Runtime-1.1.jar) and [J3AssetManagerCore-1.1.jar](../../Distributions/J3Runtime/J3AssetManagerCore-1.1.jar) from this repository's `Distributions/J3Runtime` folder. Put them in your game's `libs` folder. `J3Runtime` uses the asset classes in `J3AssetManagerCore`; it is not a standalone JAR.
 
-The same two files are bundled under `libraries/` in both the JAR and EXE J3 Asset Manager v1.0 distribution ZIPs. If you already downloaded either application ZIP, you can copy them from there. You do **not** need the desktop UI JAR, the EXE, or JavaFX in your game.
+The same two files are bundled under `libraries/` in both the JAR and EXE J3 Asset Manager v1.1 distribution ZIPs. If you already downloaded either application ZIP, you can copy them from there. You do **not** need the desktop UI JAR, the EXE, or JavaFX in your game.
 
 These libraries target Java 21 and jMonkeyEngine `3.9.0-stable`. Your game also needs `jme3-core`, `jme3-jbullet`, and Gson (`2.13.2`). Keep the rest of your game's normal jMonkeyEngine desktop and renderer dependencies.
 
@@ -20,7 +20,7 @@ repositories {
 }
 
 dependencies {
-    implementation files('libs/J3Runtime-1.0.jar', 'libs/J3AssetManagerCore-1.0.jar')
+    implementation files('libs/J3Runtime-1.1.jar', 'libs/J3AssetManagerCore-1.1.jar')
     implementation 'org.jmonkeyengine:jme3-core:3.9.0-stable'
     implementation 'org.jmonkeyengine:jme3-jbullet:3.9.0-stable'
     implementation 'com.google.code.gson:gson:2.13.2'
@@ -31,7 +31,7 @@ If your game already declares any of these jMonkeyEngine or Gson dependencies, k
 
 ### Building from source instead
 
-From the J3 Asset Manager Maven source project's root, run `mvn install`. This builds and installs `com.vts:J3Runtime:1.0` and `com.vts:J3AssetManagerCore:1.0` into your local Maven repository. A Gradle game can then use `mavenLocal()` and `implementation 'com.vts:J3Runtime:1.0'`. This is a **local source-build option**; version 1.0 is not being claimed as published on Maven Central.
+From the J3 Asset Manager Maven source project's root, run `mvn install`. This builds and installs `com.jme.j3asset:J3Runtime:1.1` and `com.jme.j3asset:J3AssetManagerCore:1.1` into your local Maven repository. A Gradle game can then use `mavenLocal()` and `implementation 'com.jme.j3asset:J3Runtime:1.1'`. This is a **local source-build option**; version 1.1 is not being claimed as published on Maven Central.
 
 ## Make authored assets visible to jMonkeyEngine
 
@@ -41,7 +41,7 @@ During development, a game with an `assets/` directory can register it as a file
 
 ```java
 import com.jme3.asset.plugins.FileLocator;
-import com.vts.j3.runtime.J3Runtime;
+import com.jme.j3asset.runtime.J3Runtime;
 
 assetManager.registerLocator("assets", FileLocator.class);
 J3Runtime.registerLoaders(assetManager);
@@ -54,7 +54,7 @@ Call `registerLoaders` before the first J3 asset load. It registers the supporte
 Inside a `SimpleApplication`, after registering the asset locator and J3 loaders:
 
 ```java
-import com.vts.j3assetmanager.core.character.J3CharacterAsset;
+import com.jme.j3asset.core.character.J3CharacterAsset;
 
 J3CharacterAsset hero = (J3CharacterAsset) assetManager.loadAsset(
         "J3 Meta/Characters/Hero.j3char");
@@ -70,8 +70,8 @@ Attach and initialize a `BulletAppState` before spawning. In a `SimpleApplicatio
 ```java
 import com.jme3.bullet.BulletAppState;
 import com.jme3.math.Vector3f;
-import com.vts.j3.runtime.character.J3CharacterRuntime.CharacterInstance;
-import com.vts.j3.runtime.character.JmeCharacters;
+import com.jme.j3asset.runtime.character.J3CharacterRuntime.CharacterInstance;
+import com.jme.j3asset.runtime.character.JmeCharacters;
 
 BulletAppState physics = stateManager.getState(BulletAppState.class);
 if (physics == null || !physics.isInitialized()) {
@@ -94,7 +94,7 @@ hero.combat().equipWeapon("J3 Meta/Weapons/HeroWeapon.j3weapon");
 
 ```java
 import com.jme3.bullet.BulletAppState;
-import com.vts.j3.runtime.level.LevelSession;
+import com.jme.j3asset.runtime.level.LevelSession;
 
 BulletAppState physics = stateManager.getState(BulletAppState.class);
 LevelSession session = new LevelSession(this, physics);
@@ -111,3 +111,5 @@ Pass `null` as the second argument to use the player named in the level asset, o
 - If a Java class is missing at runtime, check both J3 JARs and the jMonkeyEngine, Bullet, and Gson dependencies above.
 
 The editor can create more asset types than the current runtime fully implements. Confirm gameplay behavior in your own game build before relying on a type in a release.
+
+

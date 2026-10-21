@@ -14,7 +14,7 @@ Prepare or import animation source data first. Choose **Assets → Create → An
 
 | Field | Meaning |
 | --- | --- |
-| `source` | Project reference to the `.j3anim` animation source. |
+| `source` | Project reference to a `.j3anim` or `.j3o` animation source. For GLB sources, use the Animation Editor/import workflow first; see [animation and locomotion](animation.md). |
 | `sourceSkeleton` | Optional `.j3skel` map for the source skeleton. |
 | `clip` | Named animation inside the source. Pick after selecting the source. |
 | `previewModel` | Male or female preview dummy in the current inspector. It affects the preview choice, not the game's character type. |

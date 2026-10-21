@@ -6,6 +6,10 @@ Animation assets describe reusable clips and how motion can be selected or blend
 
 ## Animation clips
 
+In v1.1, animation and J3 script workflows support J3O and GLB model sources. The Animation Editor can open animation sources including `.j3anim`, `.j3o`, `.glb`, and `.gltf`, preview their clips, and export selected animations to `.j3o`. A GLB must contain animation data to provide clips; a static GLB supplies only a model. Use compatible skeletons when combining models and animation sources.
+
+The Animation Clip inspector's Source picker currently accepts `.j3anim` and `.j3o`. For GLB animation data, use the Animation Editor/import workflow and save the animation to a supported source before assigning it to a `.j3clip`.
+
 The `.j3clip` concept describes a named animation range from a source animation. Clip boundaries, names, and playback settings should be checked against the source asset; incorrect ranges can produce foot sliding, abrupt transitions, or empty playback.
 
 ![Animation clip editor](../images/animation-clip-editor.png)
