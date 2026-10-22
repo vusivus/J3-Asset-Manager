@@ -88,3 +88,7 @@ The repository currently includes editor and core concepts for enemy, social, me
 ## Design source
 
 This page is based on *Ultimate Bounty Hunter* GDD, Revision 2, especially *Behaviours* and *J3 Asset Manager Software*. It summarizes the design for an editor user and does not claim the AI design is complete in the current runtime.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3behaviour) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

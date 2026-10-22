@@ -1,5 +1,7 @@
 # Use J3Runtime in a jMonkeyEngine game
 
+See the [complete runtime application examples](../examples/runtime.md) and [per-asset code reference](../examples/assets.md) for integration and coverage of every current asset type.
+
 J3 Asset Manager edits J3 asset files. `J3Runtime` loads those files in a jMonkeyEngine game and supplies character, combat, movement, input, effect, and level helpers. The editor application does not need to be on your game's classpath.
 
 ## Get the libraries
@@ -23,6 +25,8 @@ dependencies {
     implementation files('libs/J3Runtime-1.1.jar', 'libs/J3AssetManagerCore-1.1.jar')
     implementation 'org.jmonkeyengine:jme3-core:3.9.0-stable'
     implementation 'org.jmonkeyengine:jme3-jbullet:3.9.0-stable'
+    implementation 'org.jmonkeyengine:jme3-plugins:3.9.0-stable'
+    implementation 'org.jmonkeyengine:jme3-plugins-json:3.9.0-stable'
     implementation 'com.google.code.gson:gson:2.13.2'
 }
 ```

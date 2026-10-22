@@ -47,3 +47,7 @@ The schema also includes falloff, accuracy, recoil, and extra timing fields. The
 - A Firearm Attack is not the same file as a firearm Weapon Definition: one defines a shot, the other groups attacks and equipment settings.
 - Shot time at the wrong normalized position can make the shot occur before or after the visible muzzle flash.
 - A Firearm Attack Set must reference a default `.j3firearm` asset before it can validate.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3firearm) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

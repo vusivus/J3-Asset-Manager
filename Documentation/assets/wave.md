@@ -24,3 +24,7 @@ Choose **Assets → Create → Waves → Enemy Wave** and open the file. Set the
 | Spawn `x/y/z`, `yaw` | World-space feet position and facing angle for that enemy. |
 
 The values describe encounter pressure and placement. Actual enemy decision making depends on the runtime AI and combat coordinator. A wave can validate but still feel crowded if spawn points are too close; preview and test it in the scene.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3wave) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

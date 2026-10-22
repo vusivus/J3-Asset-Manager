@@ -30,6 +30,8 @@ This is why the editor uses several small files instead of one large character f
 
 ## Start here
 
+**Java integration:** [Runtime application examples](Documentation/examples/runtime.md) · [Examples for every J3 asset](Documentation/examples/assets.md) · [Documentation index](Documentation/index.md)
+
 1. [What a J3 asset is](Documentation/getting-started/how-assets-work.md)
 2. [Create, open, edit, and save an asset](Documentation/getting-started/create-and-edit.md)
 3. [Choose and link other assets](Documentation/getting-started/references.md)

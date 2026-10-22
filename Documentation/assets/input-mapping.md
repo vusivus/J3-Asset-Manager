@@ -24,3 +24,7 @@ Choose **Assets → Create → Input → Input Mapping** and open the file. The 
 | `bindings[].custom` | Marks a user-authored event rather than a predefined native one. |
 
 For example, two keyboard keys can map to the same “Move Forward” event, or a gamepad axis can supply a scaled analog movement value. If movement behaves in the wrong direction, inspect the trigger and scale before changing the movement controller's speed.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3input) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

@@ -26,3 +26,7 @@ Choose **Assets → Create → Effects → Particle Effect** and open the file. 
 | `startColor`, `endColor`, `startAlpha`, `endAlpha` | Color and opacity change over life. |
 
 Loop controls whether the effect repeats. For a brief impact, turn Loop off and give particles a short lifetime. For continuous smoke, Loop may be appropriate. Reference the effect in [Attack Effects](attack-effects.md) where a combat outcome needs it.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3effect) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

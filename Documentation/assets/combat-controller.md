@@ -25,3 +25,7 @@ The underlying asset model allows an empty reference as an intermediate draft, b
 ## What it does not contain
 
 Individual attacks live in [Melee Attack](melee-attack.md) files, their selection lives in [Attack Sets](attack-set.md), and striker shapes belong to the [Weapon Definition](weapon.md) and attacks. The Combat Controller does not duplicate these settings. The runtime's equip and unequip behavior is separate from this one authored field.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3combat) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

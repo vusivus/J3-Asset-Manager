@@ -28,3 +28,7 @@ If the selected animation has a source length and the End field is still zero, t
 ## Use it elsewhere
 
 Choose the `.j3clip` file in a [Melee Attack](melee-attack.md), [Reaction Data](reaction.md), or [Locomotion State](locomotion-state.md). Keep different gameplay uses in separate clip assets when they need different ranges, loop settings, or speeds.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3clip) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

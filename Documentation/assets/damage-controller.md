@@ -27,3 +27,7 @@ The model-level validator accepts empty references as a draft. For a working rec
 ## How this differs from a weapon
 
 The weapon and its striker shapes describe the attacker. The Damage Controller and Hurtbox Profile describe the receiver. When an active striker reaches a valid hurtbox, the runtime can resolve damage and select a reaction. Keeping the two sides separate means a character can change weapons without changing its receiving body layout.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3damage) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

@@ -25,3 +25,7 @@ Choose **Assets → Create → AI → Agent Profile** and open the new file. The
 | `personality.courage`, `aggression`, `discipline`, `riskTolerance`, `morale`, `surrenderThreshold` | Values from `0–1` that can shape decisions. |
 
 The core model also contains `behaviours[]`, `initialBehaviour`, and parameter data. The current Create Asset menu does **not** offer separate `.j3behaviour`, `.j3state`, or `.j3action` creation entries, so the complete authored hierarchy in the GDD remains a design direction. The Agent Profile itself is a current file type; do not assume every planned behavior is runnable.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3agent) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

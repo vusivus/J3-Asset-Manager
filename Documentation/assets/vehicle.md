@@ -38,3 +38,7 @@ The runtime uses jME's ray-cast `VehicleControl`; wheel geometries are visible p
 ## Current scope
 
 The inspector can select embedded parts or reference separate wheel and door models. Wheel positions, door pivots, and lamp positions are entered numerically; viewport placement gizmos are still needed for easier tuning. The runtime has basic throttle, steering, brakes, suspension and indicators; transmission, advanced traction, damage, AI driving, and input bindings remain project-specific work. The editor's offscreen preview has audio disabled, so horn playback must be checked in a game with audio enabled.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3car) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

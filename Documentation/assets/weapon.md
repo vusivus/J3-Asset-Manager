@@ -53,3 +53,7 @@ Set Category to **BareFists** and leave Equipped Model empty. Add a Primary Atta
 - An Attack Set row with no reference prevents the weapon from saving.
 - A weapon striker and an attack's selected striker are different lists; the attack needs the correct active reference.
 - A visible prop attached to the correct hand can still have an incorrectly positioned striker.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3weapon) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

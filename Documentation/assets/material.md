@@ -18,3 +18,7 @@ Choose **Assets → Create → Materials → Material**. The new `.j3m` starts w
 - **Texture maps** can vary these properties across the surface. Their channels and color spaces must match the material definition.
 
 The editor includes tools for PBR map generation and channel packing. Use them to prepare textures, then verify the result under representative lighting in the model preview.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3m) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

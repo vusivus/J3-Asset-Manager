@@ -43,3 +43,7 @@ Begin with one chest or torso box and test a basic punch. Add head or limb boxes
 ## Troubleshooting
 
 If attacks pass through the visible torso, check the torso box's bone, offset, and size, then inspect the attack's active striker timing. If a target can never be hit, confirm that the Character references a Damage Controller and that Auto Generate Runtime Hurtboxes is enabled if your runtime depends on generated shapes.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3hurtbox) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

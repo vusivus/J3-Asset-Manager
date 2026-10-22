@@ -21,3 +21,7 @@ A social performance describes an interaction or ambient performance. Its initia
 ## Before relying on them
 
 These files are useful for authoring and inspection, but the current repository's complete AI behavior hierarchy and runtime decisions are still developing. Use [AI behaviour system](behaviours.md) for the goal/state/action design and [Agent Profile](agent-profile.md) for decision and perception settings.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3memory) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

@@ -22,3 +22,7 @@ Choose **Assets → Create → Levels → Game Level** and open the file. Set th
 | `waves[]` | Ordered `.j3wave` references. Their order is part of the encounter sequence. |
 
 The level validator requires the scene, player, and wave references it contains to have the expected extensions. The inspector additionally checks that nonempty referenced files exist before saving.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3level) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

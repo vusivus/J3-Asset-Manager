@@ -31,3 +31,7 @@ Traffic assets describe route tags, permitted vehicle categories, driver locomot
 ## Common rule
 
 Choose reference files from the project asset root, save, and test the role in a representative scene. A preset with plausible values may still need navigation, perception, or behavior support before it acts as designed.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3enemy) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

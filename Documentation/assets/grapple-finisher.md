@@ -15,3 +15,7 @@ The game design describes Grapple and Throw as a close-range interaction between
 *Screenshot placeholder: once dedicated inspectors exist, capture their eligibility, animation, target alignment, and outcome fields. This screenshot cannot be produced from the current editor route.*
 
 For playable melee attacks today, use [Melee Attack](melee-attack.md), [Attack Set](attack-set.md), and the existing combat assets.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3grapple) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

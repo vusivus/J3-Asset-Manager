@@ -19,3 +19,7 @@ Choose **Assets → Create → Animation → Skeletal Mapping**. Open the file a
 | `bones` | Table from humanoid roles to the model's actual joint names. |
 
 Choose the model first so the joint list is populated. Then compare the mapped joint with the visible part of the rig. A right-hand striker needs the actual right-hand joint or an appropriate mapped role; selecting the wrist of the wrong arm can make contact impossible or unfair.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3skel) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

@@ -51,3 +51,7 @@ For bare fists, a Primary set could use `Straight Punch.j3melee` for Forward Att
 - A set can be saved but remain unused until a weapon references it.
 - Entering `25` for the knockdown threshold is invalid; `0.25` represents 25%.
 - Mixing `.j3melee` and `.j3firearm` in the wrong mode fails type validation.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3attackset) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

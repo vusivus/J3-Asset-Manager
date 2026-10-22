@@ -23,3 +23,7 @@ Choose **Assets → Create → Combat → Attack Effects** and open the file. Fi
 | `hitPauseDuration`, `hitPauseScale` | Brief timing effect on impact. Both values must be nonnegative in the inspector. |
 
 Sound pickers accept `.ogg` and `.wav`; effect pickers accept `.j3effect`; trail material accepts `.j3m`. The current inspector writes these fields into the asset's `data` section. Effects supplement hit logic; they do not decide whether a striker touched a hurtbox.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3attackfx) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

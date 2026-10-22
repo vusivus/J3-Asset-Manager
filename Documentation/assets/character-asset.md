@@ -37,3 +37,7 @@ The capsule is the broad physical body used for movement and collision with the 
 ## Preview checks
 
 Check scale, feet position, capsule fit, model orientation, and module references. Then test the character in a runtime scene; an editor preview alone cannot prove that input, animation, or damage is wired correctly.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3char) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

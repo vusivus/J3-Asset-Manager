@@ -1,11 +1,16 @@
 # Asset catalogue
 
+For Java code, see [examples for every J3 asset](../examples/assets.md) and [runtime integration examples](../examples/runtime.md). The example index includes imported containers and types missing from older versions of this table.
+
 This table follows the **current Create Asset menu** in `InitialAssetCatalog`. “Create” means the editor creates a file and may open an inspector. It does not guarantee complete runtime support. The [field guides](../index.md#asset-field-guides) explain the most developed authoring paths.
 
 | Menu item | Extension | Purpose | Guide |
 | --- | --- | --- | --- |
 | Enemy Wave | `.j3wave` | Enemy spawns and encounter pacing | [Wave](../assets/wave.md) |
 | Game Level | `.j3level` | Scene, player entry, ordered waves | [Level](../assets/level.md) |
+| Scene | `.j3scene` | Linked models, lights, cameras and colliders | [Scene example](../examples/runtime.md#scenes-and-curves) |
+| Humanoid Rig | `.j3rig` | Embedded model and rig definition | [Rig example](../examples/assets.md#j3rig) |
+| Camera Profile | `.j3cam` | Reusable camera settings | [Camera example](../examples/assets.md#j3cam) |
 | Material | `.j3m` | jMonkeyEngine material | [Material](../assets/material.md) |
 | Particle Effect | `.j3effect` | Particle emitters and preview | [Effect](../assets/particle-effect.md) |
 | Skeletal Mapping | `.j3skel` | Humanoid role to model joint mapping | [Skeleton](../assets/skeletal-mapping.md) |

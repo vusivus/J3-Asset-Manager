@@ -24,3 +24,7 @@ Choose **Assets → Create → Combat → Attack Charge**, open the file, and se
 | `loopSound`, `effectPrefab` | Optional audio (`.ogg` or `.wav`) and visual `.j3o` references during charging. |
 
 Test charged moves against nearby obstacles and moving targets. A configured approach dash should not carry the character through level geometry; actual collision and target behavior depend on the runtime.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3charge) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

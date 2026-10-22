@@ -19,3 +19,7 @@ Use **Assets → Import → Model** to bring a source model into the project. Se
 | Geometry/material bindings | Links each named geometry to an embedded material definition. |
 
 After import, check orientation, scale, skeleton, and material appearance. A model can look correct in preview but still need a Character asset for movement, collision, and combat modules.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3model) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

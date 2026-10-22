@@ -78,3 +78,7 @@ Assign a compatible punch clip and a right-hand striker. Keep repeated hits off 
 - A wide active window may let the same move hit at visually unrelated poses.
 - A missing or wrong bone on the striker makes the shape follow the wrong body part.
 - The move can save without being used until an Attack Set references it.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3melee) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

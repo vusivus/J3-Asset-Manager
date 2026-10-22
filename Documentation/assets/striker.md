@@ -51,3 +51,7 @@ Use a small sphere near a fist for a compact punch, a capsule along a forearm or
 ## Troubleshooting
 
 If a striker stays behind as the hand moves, check Parent Bone and the model's skeleton mapping. If it appears offset, adjust Local Offset or Rotation. If it hits too early, first inspect the Melee Attack's active window, then the striker's size. A correctly placed striker remains harmless while its attack is outside the active window.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3striker) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

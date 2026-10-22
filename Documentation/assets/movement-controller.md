@@ -28,3 +28,7 @@ Choose **Assets → Create → Movement → Movement Controller** and open the f
 | `directionalSwitchCooldown`, `manualTargetPriorityDuration` | Timing limits that reduce rapid target changes and preserve an explicit selection briefly. |
 
 These fields tune movement and selection behavior, but the actual character still needs a valid model, physics setup, input events, and runtime controller. Test turning and target switching in a scene, especially if animations provide root motion.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3move) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.

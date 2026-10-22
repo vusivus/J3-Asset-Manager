@@ -27,3 +27,7 @@ The Standing and Crouching tabs are separate; filling one does not automatically
 `jumpStart`, `jumpLoop`, and `jumpLanding` cover takeoff, airborne travel, and landing. `baseJumpUpForce` controls upward launch, `heavyLandingMinImpactSpeed` chooses when a harder landing is warranted, and `landingLockDuration` describes a brief lock after landing.
 
 Start with a small working set and preview it on the intended character. Missing or incompatible clips are more noticeable when a character changes state than while standing still.
+
+## Java example
+
+See [loading and using this asset](../examples/assets.md#j3loco) and the [runtime integration examples](../examples/runtime.md) for Java code, required setup, and runtime support limitations.
